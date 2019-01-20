@@ -1,17 +1,17 @@
 {% if site.disqus_shortname %}
     <script type="text/javascript" src="{{ site.url }}//assets/js/iDisqus.min.js"></script>  
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}//assets/css/iDisqus.min.css" />
+		<div id="comment"></div>
     <script type="text/javascript">
     	$(document).ready(function () {
 		    var disq = new iDisqus('comment', {
-		        forum: 'lengerfulluse',
+		        forum: 'jiabintan',
 		        api: 'http://disqus.hengwei.me',
-		        site: 'http://t.hengwei.me',
+		        site: location.origin,
 		        url: location.pathname,
 		        mode: 1,
 		        timeout: 2000,
-		        init: true,
-		        badge: "Tan"
+		        init: true
 		      });
 		    disq.count();
 		  });

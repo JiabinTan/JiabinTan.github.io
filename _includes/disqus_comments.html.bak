@@ -1,6 +1,6 @@
 {% if site.disqus_shortname %}
-    <script type="text/javascript" src="/assets/js/iDisqus.min.js"></script>  
-		<link rel="stylesheet" type="text/css" href="/assets/css/iDisqus.min.css" />
+    <script type="text/javascript" src="{{ site.url }}//assets/js/iDisqus.min.js"></script>  
+		<link rel="stylesheet" type="text/css" href="{{ site.url }}//assets/css/iDisqus.min.css" />
     <script type="text/javascript">
     	$(document).ready(function () {
 		    var disq = new iDisqus('comment', {
