@@ -1,37 +1,23 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
-comments: false
+title: About the Bio
+tags: [about]
+date: 2018-01-20
+comments: True
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+<center><h1>写在前面</h1></center>
 
-## Preview
+## 目的
+&emsp;&emsp;动机很简单，最近突然来了兴致，想把自己看的一些论文，做的一些项目的经验总结写成博客。一方面可以作为自己对这些知识的巩固；一方面也可以跟他人对此进行交流，加深理解，或者纠正存在的一些错误。
+&emsp;&emsp;对于博客的篇幅，应该不会弄得很长，因为也没那没多时间。以论文为例，我会只是将其中的关键技术或者思想进行阐述，或加入一些个人感觉有必要的东西加以辅助。
+&emsp;&emsp;对于更新频率，我也无法保证高产出，毕竟这是个要时间的工作。但如果有时间的话，应该会尽量多po几篇。
+## 内容
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+- 机器学习的相关算法与论文
+- 通信工程方面的相关论文
+- 一些有意思的小技术，比如之前弄了个php的代理网页，感觉有点意思，这个的作用嘛，你懂得。
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+## 其他
 
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+- 博客模板来源 [Moon](https://github.com/TaylanTatli/Moon/ "Moon")
