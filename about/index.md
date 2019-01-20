@@ -21,3 +21,4 @@ comments: True
 ## 其他
 
 - 博客模板来源 [Moon](https://github.com/TaylanTatli/Moon/ "Moon")
+- 评论使用DISQUS平台，需翻墙，最近在弄项目，等有时间了我再换一个平台。
