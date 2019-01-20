@@ -1,23 +1,30 @@
-# Codinfox-Lanyon
+# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+  
+## `Sorry guys but there will be no update until I buy a new laptop.`
+    
+######(If you like this theme or using it, please give a :star: for motivation.)
 
-This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).
+**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
-**If you like this project, PLEASE give it a star.**
+## Features
+* Minimal, you can focus on your content
+* Responsive
+* Disqus integration
+* Syntax highlighting
+* Optional post image
+* Social icons
+* Page for sharing projects
+* Optional background image
+* Simple navigation menu
+* MathJax support
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+## Preview
 
-All the configurations are inside either `_config.yml` or `_config.scss`. The options are fairly straightforward. 
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
-The theme supports: 
+See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
 
-1. Theme colors: you can choose your favorite theme color
-2. Changable sidebar locations
-3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
-4. and numerous improvements over original Lanyon
+## Getting Started
 
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
