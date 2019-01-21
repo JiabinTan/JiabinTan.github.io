@@ -6,7 +6,7 @@
 		var comment_div = $("<div id='comment'></div>");
 		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(comment_div[0]);
     new Valine({
-        el: '#comments',
+        el: '#comment',
         app_id: '{{ site.valine_comment.leancloud_appid }}',   
         app_key: '{{ site.valine_comment.leancloud_appkey }}', 
         placeholder:'{{ site.valine_comment.placeholder }}'    
