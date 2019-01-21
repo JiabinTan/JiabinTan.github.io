@@ -14,11 +14,11 @@
     $(document).ready(function() { 
     	//console.log($('div.animated.wrapper.fadeIn').height());
     	$('div#comment').delay(100).offset({top:$('div.animated.wrapper.fadeIn').height()+135});
-    
+    	$(window).resize(function() {
+  			$('div#comment').delay(100).offset({top:$('div.animated.wrapper.fadeIn').height()+135});
+			});
     });
-    $(window).resize(function() {
-  		$('div#comment').delay(100).offset({top:$('div.animated.wrapper.fadeIn').height()+135});
-		});
+    
 </script>
 {% endif %}
 {% endunless %}
