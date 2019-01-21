@@ -11,13 +11,13 @@
         app_key: '{{ site.valine_comment.leancloud_appkey }}', 
         placeholder:'{{ site.valine_comment.placeholder }}'    
     });
-    $(document).ready(function() { 
+    $(document).ready(function(){ 
     	//console.log($('div.animated.wrapper.fadeIn').height());
     	$('div#comment').delay(200).offset({top:$('div.animated.wrapper.fadeIn').height()+135});
     	//$(window).resize(function() {
   		//	$('div#comment').offset({top:$('div.animated.wrapper.fadeIn').height()+135});
 			//});
-    });
+   	});
     
 </script>
 {% endif %}
