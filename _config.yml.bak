@@ -1,4 +1,4 @@
-ï»¿# Site
+# Site
 title:              Jiabin's Room
 bio:                'There is no royal road to <strong>learning</strong>.'
 description:        "There is no royal road to <strong>learning</strong>."
@@ -25,18 +25,18 @@ mathjax: true
 #  cdn: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 sass:
   sass_dir:         _sass
-	style:            compressed
+  style:            compressed
 
 # Comments
 #disqus_shortname:   Jiabintan
 valine_comment:
-	enable: true
+  enable: true
 # app_id
-	leancloud_appid: KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz
+  leancloud_appid: KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz
 # app_key
   leancloud_appkey: v67oh8iCtfJEYacPTiPKkUuU
 # placeholde
-  placeholder: â€œLet's think and talk"
+  placeholder: ¡°Let's think and talk"
 
 # Social
 # if you don't have any of social below, comment the line.
