@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A NOVEL AGC SCHEME FOR QAM DEMODULATOR APPLICATIONS"
-date:   2019-01-21
+date:   2019-01-20
 excerpt: "The performance of traditional approaches of automatic gain control (AGC) will be seriously degraded by intersymbol interference (ISI)."
 project: true
 tags: [AGC,equalizer,QAM]
