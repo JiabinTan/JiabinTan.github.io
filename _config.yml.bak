@@ -25,14 +25,14 @@ mathjax: true
 #  cdn: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 sass:
   sass_dir:         _sass
-	style:            compressed
+  style:            compressed
 
 # Comments
 #disqus_shortname:   Jiabintan
 valine_comment:
-	enable: true
+  enable: true
 # app_id
-	leancloud_appid: KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz
+  leancloud_appid: KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz
 # app_key
   leancloud_appkey: v67oh8iCtfJEYacPTiPKkUuU
 # placeholde
