@@ -36,7 +36,7 @@ valine_comment:
 # app_key
   leancloud_appkey: v67oh8iCtfJEYacPTiPKkUuU
 # placeholde
-  placeholder: “Let's think and talk"
+  placeholder: Let\'s think and talk
 
 # Social
 # if you don't have any of social below, comment the line.
