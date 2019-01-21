@@ -13,10 +13,10 @@
     });
     $(document).ready(function() { 
     	//console.log($('div.animated.wrapper.fadeIn').height());
-    	$('div#comment').offset({top:$('div.animated.wrapper.fadeIn').height()+135});
-    	$(window).resize(function() {
-  			$('div#comment').offset({top:$('div.animated.wrapper.fadeIn').height()+135});
-			});
+    	$('div#comment').delay(200).offset({top:$('div.animated.wrapper.fadeIn').height()+135});
+    	//$(window).resize(function() {
+  		//	$('div#comment').offset({top:$('div.animated.wrapper.fadeIn').height()+135});
+			//});
     });
     
 </script>
