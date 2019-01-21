@@ -4,10 +4,7 @@ title:  "论文《A NOVEL AGC SCHEME FOR QAM DEMODULATOR APPLICATIONS》"
 date:   2019-01-21
 excerpt: "The performance of traditional approaches of automatic gain control (AGC) will be seriously degraded by intersymbol interference (ISI)."
 project: true
-tag:
-- AGC 
-- QAM
-- equalizers
+tags: [AGC,equalizer,QAM]
 feature: https://JiabinTan.github.io/assets/img/post/elec.jpg
 comments: true
 ---
