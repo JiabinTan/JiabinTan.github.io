@@ -228,19 +228,3 @@ div#comment{
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
-@-webkit-keyframes fadeIn{
-    0%{opacity:0;}
-    100%{opacity:1;}
-}
-@-moz-keyframes fadeIn{
-    0%{opacity:0;}
-    100%{opacity:1;}
-}
-@-ms-keyframes fadeIn{
-    0%{opacity:0;}
-    100%{opacity:1;}
-}
-@keyframes fadeIn{
-    0%{opacity:0;}
-    100%{opacity:1;}
-}
