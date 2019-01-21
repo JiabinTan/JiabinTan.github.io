@@ -28,7 +28,15 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   Jiabintan
+#disqus_shortname:   Jiabintan
+valine_comment:
+  enable: true
+# app_id
+  leancloud_appid: KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz
+# app_key
+  leancloud_appkey: v67oh8iCtfJEYacPTiPKkUuU
+# placeholde
+  placeholder: ¡°Let's think and talk"
 
 # Social
 # if you don't have any of social below, comment the line.
