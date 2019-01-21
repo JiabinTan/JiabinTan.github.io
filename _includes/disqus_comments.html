@@ -4,7 +4,7 @@
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
 		var comment_div = $("<div id='comment'></div>");
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(comment_div[0]);
+		(document.getElementsByTagName('body')[0]).appendChild(comment_div[0]);
     new Valine({
         el: '#comment',
         app_id: '{{ site.valine_comment.leancloud_appid }}',   
