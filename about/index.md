@@ -23,9 +23,10 @@ comments: True
 - 博客模板来源 [Moon](https://github.com/TaylanTatli/Moon/ "Moon")
 - 评论使用DISQUS平台，需翻墙，最近在弄项目，等有时间了我再换一个平台。
 
-##更新
+## 更新
 
 >- 2019-01-21 14:10:42 星期一
    - 评论系统使用 [leancloud](https://leancloud.cn "leancloud")
    - 更换头像UI
    - 修复一些小bug
+   - 评论模块延时显示（没办法，有点bug，修复起来太复杂，直接用动画算了）
