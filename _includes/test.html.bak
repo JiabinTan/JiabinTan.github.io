@@ -1,8 +1,15 @@
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script type="text/javascript">
 
-	var comment_div = $("<div id='vcomments'></div>");
-	console.log(comment_div[0]);
-	console.log(comment_div.get('#vcomments'));
-	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(comment_div.get('#vcomments'));
-</script>
+<head>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+</head>
+<body>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz',
+            appKey: 'v67oh8iCtfJEYacPTiPKkUuU'
+        })
+    </script>
+</body>
