@@ -8,5 +8,4 @@ feature: https://JiabinTan.github.io/assets/img/post/elec.jpg
 comments: true
 ---
 
-![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-    
+&nbsp&nbsp最近有项目要忙，之前又一直在修复博客的模板，拖了很多东西，这边的内容过几天在更新。
