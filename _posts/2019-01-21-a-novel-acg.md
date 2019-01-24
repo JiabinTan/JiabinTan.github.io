@@ -11,9 +11,10 @@ comments: true
 &nbsp&nbsp最近有项目要忙，之前又一直在修复博客的模板，拖了很多东西，这边的内容过几天在更新。
 
 
-
-
-#### 重要！！！（Important）
+<br/>
+<br/>
+<br/>
+## <label style="color:orange">重要！！！（Important）</label>
 
 评论版块需要fan墙，如果需要请fan墙后操作。<br/>
 游客评论无法接受回复提醒邮件。<br/>
