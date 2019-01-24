@@ -3,7 +3,7 @@ title:              Jiabin's Room
 bio:                'There is no royal road to <strong>learning</strong>.'
 description:        "There is no royal road to <strong>learning</strong>."
 reading_time:       true
-words_per_minute:   200
+words_per_minute:   150
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
@@ -29,7 +29,7 @@ sass:
 
 # Comments
 disqus_shortname:   Jiabintan
-#valine_comment:
+# valine_comment:
 #  enable: true
 # app_id
 #  leancloud_appid: KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz
