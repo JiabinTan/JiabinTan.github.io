@@ -26,7 +26,8 @@ comments: True
 ## 更新
 
 >- 2019-01-24 23:16:42 星期四
-   - 考虑到valine的诸多不便，还是转换为disqus。各位客官请自带Fan墙工具。<br/>
+   - 考虑到valine的诸多不便，还是转换为disqus。各位客官请自带Fan墙工具
+   - 游客评论无法接受回复提醒邮件
  - 2019-01-21 14:10:42 星期一
    - 评论系统使用 [valine](https://valine.js.org/ "valine")
    - 更换头像UI
