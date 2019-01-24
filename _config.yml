@@ -36,7 +36,7 @@ valine_comment:
 # app_key
   leancloud_appkey: v67oh8iCtfJEYacPTiPKkUuU
 # placeholde
-  placeholder: Let\'s think and talk
+  placeholder: '因为服务器局限性，可能评论或者回复的邮件通知失败，如果是问题比较重要建议直接邮件联系。\n(Email reply may fail to send due to the free server,you can contact me by email if it's important.)'
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -47,7 +47,7 @@ valine_comment:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              1035844563@qq.com
 #twitter:            username
 #facebook:           username
 github-url:         JiabinTan

@@ -12,9 +12,7 @@
 				        el: '#comment',
 				        app_id: '{{ site.valine_comment.leancloud_appid }}',   
 				        app_key: '{{ site.valine_comment.leancloud_appkey }}', 
-				        placeholder:'{{ site.valine_comment.placeholder }}',
-				        notify: true, 
-				        verify: false 
+				        placeholder:'{{ site.valine_comment.placeholder }}'
 				    });
     		 		$('div#comment').offset({top:$('div.animated.wrapper.fadeIn').height()+135});
     		 }, 1500);
