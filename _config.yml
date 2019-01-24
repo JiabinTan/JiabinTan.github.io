@@ -28,17 +28,18 @@ sass:
   style:            compressed
 
 # Comments
+
 disqus_shortname:   Jiabintan
+
 # valine_comment:
 #  enable: true
 # app_id
 #  leancloud_appid: KpMLPHfytl5KB1bhT8MIWXGg-gzGzoHsz
-# app_key
+#  app_key
 #  leancloud_appkey: v67oh8iCtfJEYacPTiPKkUuU
-# placeholde
-#  placeholder: 因为服务器局限性，可能评论或者回复的邮件通知失败，如果是问题比较重要建议直接邮件联系。\n(Email reply may fail to send due to the free server,you can contact me by email if it's important.)
-
-# Social
+#  placeholde
+#  placeholder: 
+#  Social
 # if you don't have any of social below, comment the line.
 #google:
   #plus:            #username
