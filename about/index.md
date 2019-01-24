@@ -25,8 +25,11 @@ comments: True
 
 ## 更新
 
+>- 2019-01-24 23:16:42 星期四
+   - 考虑到valine的诸多不便，还是转换为disqus。各位客官请自带Fan墙工具。
+   
 >- 2019-01-21 14:10:42 星期一
-   - 评论系统使用 [leancloud](https://leancloud.cn "leancloud")
+   - 评论系统使用 [valine](https://valine.js.org/ "valine")
    - 更换头像UI
    - 修复一些小bug
    - 评论模块延时显示（没办法，有点bug，修复起来太复杂，直接用动画算了）

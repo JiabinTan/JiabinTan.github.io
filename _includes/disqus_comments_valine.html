@@ -1,0 +1,28 @@
+{% unless site.valine_shortname %}
+{% if site.valine_comment.enable %}
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+		
+    $(document).ready(function(){ 
+    	setTimeout(function () {
+    				var comment_div = $("<div id='comment'></div>");
+						(document.getElementsByTagName('body')[0]).appendChild(comment_div[0]);
+				    new Valine({
+				        el: '#comment',
+				        app_id: '{{ site.valine_comment.leancloud_appid }}',   
+				        app_key: '{{ site.valine_comment.leancloud_appkey }}', 
+				        placeholder:'{{ site.valine_comment.placeholder }}',
+				        verify:false,
+				        notify:true
+				    });
+    		 		$('div#comment').offset({top:$('div.animated.wrapper.fadeIn').height()+135});
+    		 }, 1500);
+    	$(window).resize(function() {
+  			$('div#comment').offset({top:$('div.animated.wrapper.fadeIn').height()+135});
+			});
+   	});
+    
+</script>
+{% endif %}
+{% endunless %}
