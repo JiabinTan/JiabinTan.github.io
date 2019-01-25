@@ -15,13 +15,13 @@ comments: true
 &emsp;&emsp;该论文主要思想是，使用均衡器输出来同时解决AGC与ISI问题。一般我们使用均衡器来处理ISI问题，文中使用的是自适应算法，详细过程如下：<br>
 <img src='https://JiabinTan.github.io/assets/img/post/201901252.png' alt='公式1' align='center' title='公式1'/>
 <p align='center' style='font-style:italic;font-size:12px'>公式1</p>
-&emsp;&emsp;其中k表示时刻（下同），$C_k$为均衡器系数向量，$X_k$为输入数据向量。另均衡器错误为$e_{k-1}$，$\hat y_k$是决策值，$y_k$是均衡器输出值。则可以将三者表示为
+&emsp;&emsp;其中k表示时刻（下同）， \\( C_k \\) 为均衡器系数向量， \\( X_k \\) 为输入数据向量。另均衡器错误为 \\( e_{k-1} \\) ， \\( \hat y_k \\) 是决策值， \\( y_k \\) 是均衡器输出值。则可以将三者表示为
 <img src='https://JiabinTan.github.io/assets/img/post/201901253.png' alt='公式2' align='center' title='公式2'/>
 <p align='center' style='font-style:italic;font-size:12px'>公式2</p>
 &emsp;&emsp;带入公式1
 <img src='https://JiabinTan.github.io/assets/img/post/201901254.png' alt='公式3' align='center' title='公式3'/>
 <p align='center' style='font-style:italic;font-size:12px'>公式3</p>
-&emsp;&emsp;之后，令AGC错误为（乘上$y_{k-1}$是为了产生凸优化解）
+&emsp;&emsp;之后，令AGC错误为（乘上\\( y_{k-1} \\)是为了产生凸优化解）
 <img src='https://JiabinTan.github.io/assets/img/post/201901255.png' alt='公式4' align='center' title='公式4'/>
 <p align='center' style='font-style:italic;font-size:12px'>公式4</p>
 &emsp;&emsp;注意上面的公式实际上在分开考虑增益错误与均衡器错误。<br/>
@@ -34,12 +34,14 @@ comments: true
 &emsp;&emsp;大概就是这些。<br/>
 <br/>
 ### 未涉及原文内容有
+
 - 算法的稳定性分析
 - 实验结果
 - 以及一些详细的解释内容
 有需要的同学请参看原文
 
 ### 参考
+
 Deng Q , Wu J H , Shi L X , et al. A novel AGC scheme for QAM demodulator applications[M]. 2007.
 
 
